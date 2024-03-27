@@ -1,5 +1,5 @@
 {% set name = "lxmlh" %}
-{% set version = "1.3.0" %}
+{% set version = "1.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lxmlh-{{ version }}.tar.gz
-  sha256: b754d2075b6e0efe3d79e0348f48842dc5df90245a6eafaa779361679051236a
+  sha256: d6132c578b3a0041b57151640ca32c2a84e1109fcdf0eaf4f54b916d592a8e10
 
 build:
   noarch: python
